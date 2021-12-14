@@ -29,6 +29,7 @@ body {
   font-size: 16px;
   line-height: 1.14;
   font-weight: 500;
+  list-style-type: none;
 }
 .link {
   color: var(--main-color);
@@ -65,6 +66,9 @@ body {
 
   cursor: pointer;
 }
+.section-list {
+  list-style-type: none;
+}
 .section-pluses .pluses-title {
   font-size: 14px;
   line-height: 1.17;
@@ -79,7 +83,15 @@ body {
   line-height: 1.17;
   font-weight: 700;
 }
-
+.wtd-list {
+  list-style-type: none;
+}
+.team-list {
+  list-style-type: none;
+}
+.footer-list {
+  list-style-type: none;
+}
 .section-team {
   background: #f5f4fa;
 }
@@ -102,6 +114,12 @@ body {
 }
 
 /* body portfolio */
+.button-list {
+  list-style-type: none;
+}
+.portfolio-list {
+  list-style-type: none;
+}
 .filter-button {
   background: #f5f4fa;
   border-color: #f5f4fa;
