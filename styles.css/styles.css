@@ -13,6 +13,7 @@ body {
 
 /* header */
 .logo {
+  font-weight: 700;
   color: #000000;
   font-size: 26px;
   line-height: 1.19;
@@ -54,9 +55,14 @@ body {
   text-transform: uppercase;
 }
 .hero-button {
+  background: #2196f3;
+  border-color: #2196f3;
+  border-radius: 4px;
+  color: var(--footer-text-color);
   font-size: 16px;
   line-height: 1.88;
   font-weight: 700;
+
   cursor: pointer;
 }
 .section-pluses .pluses-title {
@@ -96,7 +102,32 @@ body {
 }
 
 /* body portfolio */
+.filter-button {
+  background: #f5f4fa;
+  border-color: #f5f4fa;
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  color: var(--main-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filter-button:hover {
+  background: var(--hover-color);
+  color: var(--footer-text-color);
+}
 
+.pl-title {
+  color: var(--main-color);
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+}
+.portfolio-text {
+  color: var(--second-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
 /* footer */
 .address-link {
   color: var(--footer-text-color);
