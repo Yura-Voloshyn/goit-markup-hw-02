@@ -112,7 +112,8 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   background: var(--hover-color);
   color: var(--footer-text-color);
 }
@@ -130,12 +131,14 @@ body {
 }
 /* footer */
 .address-link {
-  color: var(--footer-text-color);
+  color: var(--main-color);
+  /* color: var(--footer-text-color); */
   text-decoration: none;
   font-style: normal;
 }
 .contact-atribute .address-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--main-color);
+  /* color: rgba(255, 255, 255, 0.6); */
 }
 .address-link:hover,
 .address-link:focus {
