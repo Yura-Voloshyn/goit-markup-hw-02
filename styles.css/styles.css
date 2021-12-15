@@ -36,6 +36,12 @@ body {
   color: var(--main-color);
   text-decoration: none;
 }
+.link-studio {
+  color: var(--hover-color);
+}
+.link-portfolio {
+  color: var(--hover-color);
+}
 
 .link-contact {
   color: var(--second-color);
