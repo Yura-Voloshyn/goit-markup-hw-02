@@ -49,7 +49,12 @@ body {
 }
 
 /* body studio */
+.hero {
+  background-color: #2f303a;
+  text-align: center;
+}
 .hero-title {
+  color: var(--footer-text-color);
   font-size: 44px;
   line-height: 1.36;
   font-weight: 900;
@@ -157,9 +162,21 @@ body {
   letter-spacing: 0.03em;
 }
 /* footer */
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  font-weight: 700;
+  color: var(--footer-text-color);
+  font-size: 26px;
+  line-height: 1.19;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
 .address-link {
-  color: var(--main-color);
-  /* color: var(--footer-text-color); */
+  /* color: var(--main-color); */
+  color: var(--footer-text-color);
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
@@ -167,8 +184,8 @@ body {
   letter-spacing: 0.03em;
 }
 .contact-atribute .address-link {
-  color: var(--main-color);
-  /* color: rgba(255, 255, 255, 0.6); */
+  /* color: var(--main-color); */
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
